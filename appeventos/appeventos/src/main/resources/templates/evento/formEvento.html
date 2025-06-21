@@ -1,10 +1,33 @@
-<html>
+<!DOCTYPE html>
+<html
+        xmlns:th="https://thymeleaf.org"
+        xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout">
+
 <head>
     <title>AppEventos</title>
-</head>
-<body>
-<h3>Calendario de eventos</h3>
+    <style type="text/css">
+            .rgba {
+                color: #000; /** fix para navegadores antigos **/
+                color: rgba(50, 100, 150, 60);
+                border: 2px solid #363636;
+            }
 
+
+    </style>
+
+</head>
+
+<body>
+<h3>Cadastro de eventos:</h3>
+<form method="post">
+    Nome:<input type="text" class="rgba" value="name"/>
+    Local:<input type="text" class="rgba" value="local"/>
+    Data:<input type="date" class="rgba" value="date"/>
+    Horario:<input type="text" class="rgba" value="horario"/>
+    <button type="submit">Salvar</button>
+
+
+</form>
 
 
 </body>
