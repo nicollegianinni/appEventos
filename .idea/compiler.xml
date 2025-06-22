@@ -15,7 +15,7 @@
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
-      <module name="appeventos" options="-parameters" />
+      <module name="appeventos" options="-parameters --add-modules java.sql" />
     </option>
   </component>
 </project>

@@ -1,7 +1,9 @@
 package com.eventosapp.appeventos.models;
 
 import com.fasterxml.jackson.databind.DatabindException;
+import jakarta.persistence.Entity;
 
+@Entity
 public class Evento {
 
     private String name;
